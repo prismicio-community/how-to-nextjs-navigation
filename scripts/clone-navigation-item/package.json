@@ -1,0 +1,4 @@
+{
+  "name": "clone-navigation-item",
+  "bin": "./index.mjs"
+}
