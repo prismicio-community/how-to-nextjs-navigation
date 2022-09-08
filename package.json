@@ -9,7 +9,7 @@
     "slicemachine": "start-slicemachine"
   },
   "bin": {
-    "how-to-nextjs-navigation": "./bin/index.js"
+    "how-to-nextjs-navigation": "./bin/index.mjs"
   },
   "dependencies": {
     "@prismicio/client": "^6.7.0",
