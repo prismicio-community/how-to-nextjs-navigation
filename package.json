@@ -9,6 +9,10 @@
     "lint": "next lint",
     "slicemachine": "start-slicemachine"
   },
+  "bin": {
+    "clone-navigation": "./scripts/clone-navigation.mjs",
+    "clone-navigation-item": "./scripts/clone-navigation-item.mjs"
+  },
   "dependencies": {
     "@prismicio/client": "^6.7.0",
     "@prismicio/helpers": "^2.3.3",
