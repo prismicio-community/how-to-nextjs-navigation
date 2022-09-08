@@ -40,6 +40,10 @@ const command = process.argv.slice(2)[0];
       fs.mkdirSync(path.dirname(dest), { recursive: true });
       fs.copyFileSync(source, dest);
 
+      console.log(
+        `Cloned the Navigation Custom Type into ${path.relative(cwd, dest)}`
+      );
+
       return;
     }
 
@@ -82,6 +86,13 @@ const command = process.argv.slice(2)[0];
       fs.mkdirSync(path.dirname(destModel), { recursive: true });
       fs.copyFileSync(sourceModel, destModel);
       fs.copyFileSync(sourceComponent, destComponent);
+
+      console.log(
+        `Cloned the NavigationItem Slice into ${path.relative(
+          cwd,
+          path.dirname(destModel)
+        )}`
+      );
 
       return;
     }
