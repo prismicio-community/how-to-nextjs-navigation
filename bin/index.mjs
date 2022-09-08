@@ -9,9 +9,7 @@ const cwd = process.cwd();
 const command = process.argv.slice(2)[0];
 
 (function () {
-  const isInRoot = fs.existsSync(path.resolve(cwd, ".slicemachine"));
-
-  if (!isInRoot) {
+  if (!fs.existsSync(path.resolve(cwd, "package.json"))) {
     console.log(
       "This command can only be used in the root of your Slice Machine project. Please try again in the correct location."
     );
