@@ -76,7 +76,7 @@ const command = process.argv.slice(2)[0];
 
       if (fs.existsSync(destModel) || fs.existsSync(destComponent)) {
         console.log(
-          'A Slice named "Navigation" already exists. Delete it before trying again.'
+          'A Slice named "NavigationItem" already exists. Delete it before trying again.'
         );
 
         return;
