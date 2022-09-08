@@ -1,6 +1,5 @@
 {
-  "name": "how-to-navigation",
-  "version": "0.1.0",
+  "name": "how-to-nextjs-navigation",
   "private": true,
   "scripts": {
     "dev": "next dev",
