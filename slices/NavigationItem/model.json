@@ -43,7 +43,7 @@
         "link": {
           "type": "Link",
           "config": {
-            "label": "link",
+            "label": "Link",
             "placeholder": "Link for the child item",
             "allowTargetBlank": true,
             "select": null

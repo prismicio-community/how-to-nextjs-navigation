@@ -51,7 +51,7 @@
                 "link": {
                   "type": "Link",
                   "config": {
-                    "label": "link",
+                    "label": "Link",
                     "placeholder": "Link for the child item",
                     "allowTargetBlank": true,
                     "select": null
@@ -71,13 +71,13 @@
                 "name": [
                   {
                     "type": "heading6",
-                    "text": "Divide",
+                    "text": "Slave",
                     "spans": []
                   }
                 ],
                 "link": {
                   "link_type": "Web",
-                  "url": "https://prismic.io"
+                  "url": "https://slicemachine.dev"
                 }
               }
             ],
@@ -85,13 +85,13 @@
               "name": [
                 {
                   "type": "heading3",
-                  "text": "Forest",
+                  "text": "Especially",
                   "spans": []
                 }
               ],
               "link": {
                 "link_type": "Web",
-                "url": "https://slicemachine.dev"
+                "url": "https://prismic.io"
               }
             },
             "slice_type": "navigation_item"
