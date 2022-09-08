@@ -8,7 +8,9 @@
     "lint": "next lint",
     "slicemachine": "start-slicemachine"
   },
-  "bin": "./bin/index.mjs",
+  "bin": {
+    "how-to-nextjs-navigation": "./bin/index.mjs"
+  },
   "dependencies": {
     "@prismicio/client": "^6.7.0",
     "@prismicio/helpers": "^2.3.3",
