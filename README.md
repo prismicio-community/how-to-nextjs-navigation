@@ -9,7 +9,7 @@ This example project shows a simple way to manage navigation menus in [Prismic][
 ## 🚀 Quick Start
 
 ```
-npx degit prismicio-community/how-to-nextjs-navigation
+npx degit prismicio-community/how-to-nextjs-navigation how-to-nextjs-navigation
 cd how-to-nextjs-navigation
 npx @slicemachine/init
 ```
