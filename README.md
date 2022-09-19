@@ -2,7 +2,7 @@
 
 Whether your website has thousands of pages or just one, it likely needs lists of links to navigate within or away from your website.
 
-This example project shows a simple way to manage navigation menus in [Prismic](https://prismic.io/) with [Next.js](https://nextjs.org/).
+This example project shows a simple way to manage navigation menus in [Prismic][prismic] with [Next.js][nextjs].
 
 [**See the full guide on Prismic's documentation website.**](#)
 
@@ -45,3 +45,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+
+[prismic]: https://prismic.io/
+[prismic-sign-up]: https://prismic.io/dashboard/signup
+[nextjs]: https://nextjs.org/
