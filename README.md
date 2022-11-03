@@ -4,7 +4,7 @@ Whether your website has thousands of pages or just one, it likely needs lists o
 
 This example project shows a simple way to manage navigation menus in [Prismic][prismic] with [Next.js][nextjs].
 
-[**See the full guide on Prismic's documentation website.**](#)
+[**See the full guide on Prismic's documentation website.**](https://prismic.io/docs/navigation-menus-nextjs)
 
 ## 🚀 Quick Start
 
