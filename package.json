@@ -12,7 +12,7 @@
     "how-to-nextjs-navigation": "./bin/index.mjs"
   },
   "dependencies": {
-    "@prismicio/client": "^6.7.0",
+    "@prismicio/client": "^6.7.3",
     "@prismicio/helpers": "^2.3.3",
     "@prismicio/next": "^0.1.3",
     "@prismicio/react": "^2.5.0",
