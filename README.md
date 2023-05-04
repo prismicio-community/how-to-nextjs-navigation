@@ -11,7 +11,7 @@ This example project shows a simple way to manage navigation menus in [Prismic][
 ```
 npx degit prismicio-community/how-to-nextjs-navigation how-to-nextjs-navigation
 cd how-to-nextjs-navigation
-npx @slicemachine/init
+npx @slicemachine/init@latest
 ```
 
 The commands will do the following:
