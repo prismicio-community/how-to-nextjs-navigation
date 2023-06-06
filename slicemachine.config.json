@@ -1,0 +1,5 @@
+{
+  "repositoryName": "how-to-navigation",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./src/slices"]
+}

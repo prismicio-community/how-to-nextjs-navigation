@@ -8,24 +8,18 @@
     "lint": "next lint",
     "slicemachine": "start-slicemachine"
   },
-  "bin": {
-    "how-to-nextjs-navigation": "./bin/index.mjs"
-  },
   "dependencies": {
-    "@prismicio/client": "^6.7.0",
-    "@prismicio/helpers": "^2.3.3",
-    "@prismicio/next": "^0.1.3",
-    "@prismicio/react": "^2.5.0",
-    "@prismicio/slice-simulator-react": "^0.2.2",
-    "next": "12.2.5",
+    "@prismicio/client": "^7.0.1",
+    "@prismicio/next": "^1.2.1",
+    "@prismicio/react": "^2.6.2",
+    "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@prismicio/types": "^0.2.3",
-    "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5",
-    "prismic-ts-codegen": "^0.1.5",
-    "slice-machine-ui": "^0.4.2"
+    "@slicemachine/adapter-next": "^0.2.1",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.4",
+    "slice-machine-ui": "^1.1.1"
   }
 }

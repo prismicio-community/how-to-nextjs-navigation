@@ -1,6 +1,6 @@
-import { createClient } from "../prismicio";
+import { createClient } from "@/prismicio";
 
-import { Navigation } from "../components/Navigation";
+import { Navigation } from "@/components/Navigation";
 
 /** @param {import('next').InferGetStaticPropsType<typeof getStaticProps>} */
 export default function Page({ header, footer }) {
@@ -16,8 +16,8 @@ export default function Page({ header, footer }) {
 }
 
 /** @param {import("next").GetStaticPropsContext} */
-export async function getStaticProps({ previewData }) {
-  const client = createClient({ previewData });
+export async function getStaticProps() {
+  const client = createClient();
 
   const [header, footer] = await Promise.all([
     client.getByUID("navigation", "header"),
